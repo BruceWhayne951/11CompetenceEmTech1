@@ -260,11 +260,15 @@ article {
 
 @media (max-width: 480px) {
   header h1 {
-    font-size: 28px;
+    font-size: 30px;
+  }
+
+  header {
+    height: 155px;
   }
 
   header h4 {
-    font-size: 18px;
+    font-size: 17px;
   }
 
   .navbar {
