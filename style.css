@@ -123,38 +123,7 @@ article {
  font-size: 16px;
  color: rgba(255,255,255,0.95);
 }
-/ Buttons /
-.btn {
- display: inline-block;
- padding: 8px 14px;
- border-radius: 8px;
- text-decoration: none;
- font-weight: 600;
- margin-right: 10px;
- transition: transform .18s ease, box-shadow .18s ease;
-}
-.btn.primary {
- background: #003d35; color: #fff;
- box-shadow: 0 6px 18px rgba(0,0,0,0.12);
-}
-.btn.ghost {
- background: transparent;
- color: rgba(255,255,255,0.95);
- border: 1px solid rgba(255,255,255,0.12);
-}
-.btn:hover { transform: translateY(-4px); }
-/ Skill chips /
-.skill-chips { margin-top: 12px; }
-.skill-chips span {
- display: inline-block;
- margin-right: 8px;
- margin-top: 6px;
- padding: 6px 10px;
- font-size: 13px;
- background: rgba(255,255,255,0.12);
- border-radius: 999px;
- color: #fff;
-}
+
 / Responsive /
 @media (max-width: 720px) {
  .Introduction1 .intro-inner { 
