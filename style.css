@@ -41,6 +41,27 @@ header h4 {
 }
 
 /* ===== NAVBAR ===== */
+
+.navbar a {
+  position: relative;
+  padding-bottom: 8px;
+}
+.navbar a::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 4px;
+  width: 0;
+  height: 3px;
+  background: #00ffec; /* accent color */
+  border-radius: 3px;
+  transition: width 220ms ease, left 220ms ease;
+}
+.navbar a:hover::after {
+  width: 70%;
+  left: 15%;
+}
+
 .navbar {
   position: sticky;
   top: 0;
