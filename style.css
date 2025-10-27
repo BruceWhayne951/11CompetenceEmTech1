@@ -137,6 +137,7 @@ article {
 
 .Introduction {
   background-color: white;
+  border-left: 8px solid #00bdb3;
   border-radius: 10px;
   padding: 25px 30px;
   margin-bottom: 20px;
