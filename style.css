@@ -101,6 +101,14 @@ article {
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
+.project {
+  transition: transform 250ms cubic-bezier(.2,.9,.2,1), box-shadow 250ms;
+}
+.project:hover {
+  transform: translateY(-8px) scale(1.01);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+}
+
 .project b {
   display: block;
   font-size: 22px;
