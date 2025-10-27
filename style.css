@@ -58,7 +58,7 @@ header h4 {
   transition: width 220ms ease, left 220ms ease;
 }
 .navbar a:hover::after {
-  width: 70%;
+  width: 70%; 
   left: 15%;
 }
 
@@ -97,9 +97,9 @@ article {
 }
 
 /* Intro box */
-
 .Introduction1 {
- background-color: #00bdb3; / keep /
+  background-color: rgb(0, 189, 179);
+    border:black solid 1px;
  border-radius: 12px;
  padding: 28px;
  margin-bottom: 20px;
@@ -113,14 +113,6 @@ article {
  align-items: center;
  max-width: 1000px;
  margin: 0 auto;
-}
-.Introduction1 .intro-avatar {
- height: 96px;
- width: 96px;
- border-radius: 50%;
- border: 3px solid rgba(255,255,255,0.18);
- object-fit: cover;
- flex-shrink: 0;
 }
 / Text /
 .Introduction1 .intro-title {
@@ -167,13 +159,18 @@ article {
 }
 / Responsive /
 @media (max-width: 720px) {
- .Introduction1 .intro-inner { flex-direction: column; text-align: center; }
- .Introduction .intro-avatar { height: 88px; width: 88px; }
- .Introduction1 .intro-title { font-size: 20px; }
+ .Introduction1 .intro-inner { 
+    flex-direction: column; 
+     text-align: center; 
+ }
+ .Introduction1 .intro-title { 
+   font-size: 20px; 
+ }
 }
 
 .Introduction {
   background-color: #00bdb3;
+  border:black solid 1px;
   border-radius: 10px;
   padding: 25px 30px;
   margin-bottom: 20px;
