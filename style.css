@@ -137,7 +137,6 @@ article {
 
 .Introduction {
   background-color: white;
-  border:black solid 1px;
   border-radius: 10px;
   padding: 25px 30px;
   margin-bottom: 20px;
@@ -228,7 +227,7 @@ article {
 
 @media (max-width: 480px) {
   header h1 {
-    font-size: 28px;
+    font-size: 25px;
   }
 
   header {
